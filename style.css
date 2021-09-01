@@ -1,4 +1,6 @@
-*{
+*{ 
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -32,7 +34,7 @@ ul{
     line-height: 1.4;
     padding-bottom: 20px;
 }
-.container .description p {
+.container .description p.text {
     padding-bottom: 30px;
 }
 
@@ -46,6 +48,15 @@ display: none;
     justify-content: space-between;
 }
 
+.container .author .avatar-img .avatar-text{
+      display: flex;
+      align-items: center;      
+}
+.container .author .avatar-img .avatar-text img {
+width: 50px;
+border-radius: 50%;
+margin-right: 20px;
+}
 
 
 .attribution { 
