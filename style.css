@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+    background-color:hsl(210, 46%, 95%);
+    color: hsl(217, 19%, 35%);
+    padding: 100px 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+}
+.container .image img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.container .description{
+    padding: 30px;
+}
+.container .description h2{
+    font-size: 20px;
+    line-height: 1.4;
+    padding-bottom: 20px;
+}
+.container .description p {
+    padding-bottom: 30px;
+}
+
+.container .author .open{
+display: none;
+}
+
+.container .author .avatar-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
