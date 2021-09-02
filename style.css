@@ -20,6 +20,7 @@ ul{
 .container {
     background-color: #fff;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 .container .image img{
     height: 250px;
@@ -38,10 +39,33 @@ ul{
     padding-bottom: 30px;
 }
 
+.container .author{
+    position: relative;
+}
 .container .author .open{
-display: none;
+display: flex;
+background-color: hsl(217, 19%, 35%);
+color: #fff;
+position: absolute;
+width: calc(100% + 60px);
+left: -30px;
+border-radius: 0 0 20px 20px;
 }
 
+.container .author .open div{
+ padding: 5px 30px;
+}
+
+.container .author .open > div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .author .open > div:first-child ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 .container .author .avatar-img{
     display: flex;
     align-items: center;
