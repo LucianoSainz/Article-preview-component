@@ -44,28 +44,50 @@ ul{
 }
 .container .author .open{
 display: flex;
+align-items: center;
+justify-content: space-between;
 background-color: hsl(217, 19%, 35%);
 color: #fff;
 position: absolute;
+height: 0;
 width: calc(100% + 60px);
+overflow: hidden;
 left: -30px;
+bottom: -30px;
 border-radius: 0 0 20px 20px;
 }
 
-.container .author .open div{
+.container .author .open.clicked{
+  height: 90px;
+  overflow: auto;
+}
+
+
+
+
+
+.container .author .open div {
  padding: 5px 30px;
+ 
 }
 
 .container .author .open > div:first-child{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
+    color: hsl(212, 23%, 69%)
 }
 
 .container .author .open > div:first-child ul{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container .author .open > div:first-child ul li{
+    margin: 0 15px;
+}
 .container .author .avatar-img{
     display: flex;
     align-items: center;
